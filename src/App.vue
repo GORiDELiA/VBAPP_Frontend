@@ -1,6 +1,7 @@
 <template>
+  <title> {{ pageTitle }} </title>
   <div>
-    <HeaderComponents/>
+    <HeaderComponents />
     <router-view />
   </div>
 </template>
@@ -12,7 +13,13 @@ export default {
   name: 'App',
   components: {
     HeaderComponents,
-  }
+  },
+  data(){
+    return{
+    // 変数宣言
+    pageTitle: 'VBApp',
+    }
+  },
 }
 </script>
 

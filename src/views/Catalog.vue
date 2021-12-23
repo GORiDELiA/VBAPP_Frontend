@@ -14,7 +14,9 @@ export default {
   components: { ItemListComponent },
   name: "App",
   data() {
-    return {};
+    return {
+      
+    };
   },
 };
 </script>

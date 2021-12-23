@@ -15,8 +15,11 @@
 export default {
   data() {
     return {
-      pageTitle: "Header",
+      
     };
+  },
+  props: {
+    
   },
 };
 </script>
