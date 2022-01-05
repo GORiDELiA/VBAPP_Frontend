@@ -1,10 +1,6 @@
 <template>
-  <div>
-    <h2>Hello Catalog Page</h2>
-    <div>
-      <itemList-component></itemList-component>
-    </div>
-  </div>
+  <h2>Hello Catalog Page</h2>
+  <itemList-component></itemList-component>
 </template>
 
 <script>
@@ -22,4 +18,5 @@ export default {
 </script>
 
 <style>
+
 </style>

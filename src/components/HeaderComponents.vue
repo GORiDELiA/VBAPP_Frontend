@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="header-container">
     <h1 class="title">VBApp</h1>
     <ul class="menu">
       <li class="menu-item"><router-link to="/">     Home      </router-link></li>
@@ -26,7 +26,7 @@ export default {
 
 <style scoped>
 
-.container {
+.header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
